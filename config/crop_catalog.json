@@ -1,0 +1,8 @@
+{
+  "orchard": {
+    "default_row_spacing_m": 4.0,
+    "default_tree_spacing_m": 4.0,
+    "default_emitters_per_tree": 2,
+    "default_emitter_flow_lph": 4.0
+  }
+}

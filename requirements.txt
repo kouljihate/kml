@@ -1,0 +1,12 @@
+streamlit
+streamlit-folium
+folium
+lxml
+fastkml
+shapely
+pyproj
+pandas
+geopandas
+ezdxf
+openpyxl
+pytest

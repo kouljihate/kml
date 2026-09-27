@@ -1,0 +1,33 @@
+{
+  "principal_network": {
+    "maximum_principal_routes": 3,
+    "principal_pipe_diameter_mm": 90,
+    "principal_route_ids": [
+      "P90-R1",
+      "P90-R2",
+      "P90-R3"
+    ],
+    "must_follow_high_elevation_boundary": true,
+    "must_be_connected_to_basin": true
+  },
+  "pipe_hierarchy": {
+    "90": [90, 63],
+    "63": [63, 32],
+    "32": [32, 16],
+    "16": []
+  },
+  "geometry_rules": {
+    "principal_pipes_must_use_high_boundary_corridor": true,
+    "major_pipes_must_stay_inside_sector": true,
+    "minor_pipes_must_stay_inside_zone": true,
+    "driplines_must_stay_inside_zone": true,
+    "rows_must_stay_inside_zone": true,
+    "trees_must_stay_inside_zone": true
+  },
+  "hydraulic_rules": {
+    "maximum_pipe_velocity_ms": 1.5,
+    "minimum_zone_pressure_bar": 1.2,
+    "maximum_zone_pressure_bar": 3.0,
+    "source_flow_safety_margin_percent": 15
+  }
+}

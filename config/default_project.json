@@ -1,0 +1,17 @@
+{
+  "project_name": "Farm Irrigation Project",
+  "country": "Morocco",
+  "source_flow_m3h": 10.0,
+  "default_crop": "Orchard",
+  "tree_spacing_m": 4.0,
+  "row_spacing_m": 4.0,
+  "emitters_per_tree": 2,
+  "emitter_flow_lph": 4.0,
+  "pipe_material": "HDPE",
+  "default_pipe_diameters_mm": {
+    "principal": 90,
+    "major": 63,
+    "minor": 32,
+    "dripline": 16
+  }
+}

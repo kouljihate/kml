@@ -1,0 +1,6 @@
+{
+  "90": {"role": "principal", "material": "HDPE"},
+  "63": {"role": "major", "material": "HDPE"},
+  "32": {"role": "minor", "material": "HDPE"},
+  "16": {"role": "dripline", "material": "LDPE"}
+}
